@@ -71,5 +71,6 @@ def Compilar_Arquivos():
         time.sleep(8)
     except Exception as e:
         print(f'ERRO NA TENTATIVA DE EXECUÇÃO: {e}')       
-
-Compilar_Arquivos()
+        
+if __name__ == '__main__':
+    Compilar_Arquivos()
