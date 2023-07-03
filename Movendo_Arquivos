@@ -37,9 +37,8 @@ def criar_pasta(nome_pasta):
         path_pasta.mkdir(parents=True, exist_ok=True)
         return True
     except Exception as e:
-        print(f'TIVEMOS UM ERRO AO CRIAR A PASTA, SEGUE O ERRO: {e}')        
+        print(f'TIVEMOS UM ERRO AO CRIAR A PASTA, SEGUE O ERRO: {e}\n')        
         return False
-print('\n')    
 
 # Depois de copiar o arquivo e criar a pasta, vamos chamar as funções no try
 try:
