@@ -58,8 +58,7 @@ try:
                 # Mover arquivo para a pasta criada
                 destino_arquivo = nome_pasta / nome_arquivo.name
                 move(nome_arquivo, destino_arquivo)
-                print(f'ACABEI DE ENVIAR O ARQUIVO PARA: {destino_arquivo}')
-                print('\n')
+                print(f'ACABEI DE ENVIAR O ARQUIVO PARA: {destino_arquivo}\n')
                 
             else:
                 print('ALGO DE ERRADO NÃO ESTA CERTO...')
