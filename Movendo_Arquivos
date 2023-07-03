@@ -18,7 +18,7 @@ def remover_arquivo_antigo(destino):
         print(f"ARQUIVO REMOVIDO COM SUCESSO: {arquivo_antigo}")
     print('\n')
 remover_arquivo_antigo(destino)
-time.sleep(2)
+time.sleep(1)
 
 #Copiando o arquivo que acabou de chegar na pasta Download
 def copiar_arquivo(origem, destino) -> bool:
