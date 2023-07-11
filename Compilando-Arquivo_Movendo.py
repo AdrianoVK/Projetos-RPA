@@ -8,7 +8,7 @@ from os.path import getmtime
 import time
 
 # Criando uma Func
-def Compilar_Arquivos():
+def Compilar_Arquivos(): 
     # Criando laço para reparar bugs
     try:
         date_today = datetime.today()
