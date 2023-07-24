@@ -27,7 +27,6 @@ def Compilar_Arquivos():
         seu_arquivo.mkdir(exist_ok=True)
         for arquivo in downloads.glob(glob):
             move(arquivo, seu_arquivo)
-
         # Adicionando o nome das colunas do arquivo fica mais fácil para o for abaixo poder localizar
         colunas = [ 'ADICIONE O NOME DOS CABEÇALHOS DO SEU ARQUIVO' ]
 
