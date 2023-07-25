@@ -37,6 +37,7 @@ def criar_pasta(nome_pasta):
         path_pasta = Path(nome_pasta)
         path_pasta.mkdir(parents=True, exist_ok=True)
         return True
+
     except Exception as e:
         print(f'TIVEMOS UM ERRO AO CRIAR A PASTA, SEGUE O ERRO: {e}\n')        
         return False
