@@ -6,7 +6,6 @@ import time
 # Sem falar que no excel ele busca um por um. Aqui eu fiz uma interação para buscar todas as linhas já informadas na planilha
 
 
-
 # Ler a planilha de CNPJs (supondo que esteja no formato .xlsx) Pegando cada cnpj que esta na planilha e criando uma api e trazendo esses dados para um novo arquivo em excel
 
 df_cnpjs = pd.read_excel(r'CAMINHO DO ARQUIVO', dtype={'CNPJ': str}) #formatando os numeros da coluna CNPJ para str para facilitar nos proximos passos a concatenação
