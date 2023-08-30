@@ -53,7 +53,6 @@ def Compilar_Arquivos():
         time.sleep(1)
         # Transformando o dataframe em formato em excel
         dataframe_final.to_excel(seu_arquivo / f'NOME DO ARQUIVO FINAL {data_hoje}.xlsx')
-
         # Movendo o arquivo para a pasta de destino
         if rede.exists(): 
             rmtree(rede, ignore_errors=True)
