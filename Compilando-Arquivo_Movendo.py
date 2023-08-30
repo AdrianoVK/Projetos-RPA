@@ -61,7 +61,7 @@ def Compilar_Arquivos():
         # Caso já tenha este arquivo com o mesmo nome, ele será substituido
         copy(arquivo_compilado, rede)
         time.sleep(1)
-        print('TRATAMENTO FINALIZADO...')
+        print('TRATAMENTO FINALIZADO... ')
         print('\n')
         print(f'ARQUIVO >>> {arquivo_compilado}  <<< ENVIADO PARA A PASTA >>> {rede}')
         time.sleep(8)
