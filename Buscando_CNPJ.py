@@ -37,7 +37,6 @@ for i in range(0, len(df_cnpjs), tamanho_lote):
         if response.status_code == 200:
             # Extrair as informações do JSON
             dados = response.json()
-            
             # Criar um dicionário com as informações encontradas dentro da api (json)
             informacoes = {
                 "abertura": dados.get('abertura', ''),
