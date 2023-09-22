@@ -47,8 +47,7 @@ def Compilar_Arquivos():
             dataframe_final['Filial'] = dataframe_final['Filial'].astype(str)
             print('\n')
             print(f'TRANTANDO O {i+1}º ARQUIVO')
-            print(f'{dataframe_final}')
-            print('\n')
+            print(f'{dataframe_final}\n')            
 
         time.sleep(1)
         # Transformando o dataframe em formato em excel
