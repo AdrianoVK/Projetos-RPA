@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import time
 
-# Essa é uma ideia que meu atual chefe faz no próprio excel, resolvi trazer para um robo fazer isso automaticamente e sem precisar ficar olhando terminar o processo dentro do próprio excel.
+# Essa é uma ideia que meu atual chefe faz no próprio excel,  resolvi trazer para um robo fazer isso automaticamente e sem precisar ficar olhando terminar o processo dentro do próprio excel.
 # Sem falar que no excel ele busca um por um. Aqui eu fiz uma interação para buscar todas as linhas já informadas na planilha
 
 # Ler a planilha de CNPJs (supondo que esteja no formato .xlsx) Pegando cada cnpj que esta na planilha e criando uma api e trazendo esses dados para um novo arquivo em excel
