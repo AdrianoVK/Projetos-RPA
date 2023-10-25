@@ -5,7 +5,7 @@ import os
 import time
 
 path_base = r'CAMINHO DA PASTA DOWNLOADS'
-destino = Path(r'CAMINHO DA PASTA DE DESTINO') # No meu caso a pasta esta alocada na Rede (outro servidor)
+destino = Path(r'CAMINHO DA PASTA DE DESTINO') # No meu caso a pasta es ta alocada na Rede (outro servidor)
 
 #Precisei excluir antes todos os arquivos que contem a palavra chave que a func glob pega
 def remover_arquivo_antigo(destino):
