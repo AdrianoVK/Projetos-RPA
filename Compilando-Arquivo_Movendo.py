@@ -6,7 +6,7 @@ from pathlib import Path
 from shutil import move, rmtree, copy
 from os.path import getmtime
 import time 
-
+ 
 # Criando uma Func
 def Compilar_Arquivos(): 
     # Criando laço para reparar bugs
