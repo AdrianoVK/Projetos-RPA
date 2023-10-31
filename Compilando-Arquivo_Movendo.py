@@ -9,7 +9,7 @@ import time
  
 # Criando uma Func
 def Compilar_Arquivos(): 
-    # Criando laço para reparar bugs
+    # Criando laço para reparar bugs 
     try:
         date_today = datetime.today()
         #hoje = date_today.strftime('%d-%m-%Y' + ' às ' + '%H:%M') 
