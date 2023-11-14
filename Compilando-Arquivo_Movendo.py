@@ -11,7 +11,7 @@ import time
 def Compilar_Arquivos(): 
     # Criando laço para reparar bugs 
     try:
-        date_today = datetime.today()
+        date_today = datetime.today() 
         #hoje = date_today.strftime('%d-%m-%Y' + ' às ' + '%H:%M') 
         data_hoje = date_today.strftime('%d %m %Y')
         # Acrescentando a coluna, compilando o arquivo e enviando para a pasta na rede    
