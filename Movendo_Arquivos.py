@@ -9,7 +9,7 @@ destino = Path(r'CAMINHO DA PASTA DE DESTINO') # No meu caso a pasta es ta aloca
 
 #Precisei excluir antes todos os arquivos que contem a palavra chave que a func glob pega 
 def remover_arquivo_antigo(destino):
-    arquivo_antigo = None
+    arquivo_antigo = None 
     for file in destino.glob("NOME DO ARQUIVO*.xlsx"): # Ecluindo todos os arquivos que contem o nome
         if file.is_file():
             arquivo_antigo = file
