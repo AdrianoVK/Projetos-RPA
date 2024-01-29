@@ -1,7 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 from shutil import move, rmtree, copy
-import os 
+import os  
 import time 
 
 path_base = r'CAMINHO DA PASTA DOWNLOADS' 
