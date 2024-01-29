@@ -14,7 +14,7 @@ lista_informacoes = []
 # Definir o tamanho do lote (número de CNPJs a serem processados em cada lote) Como há uma limitação de dados e tempo de retorno atribui um limite de lotes de pesquisa
 tamanho_lote = 50
 
-# Inicializar a variável de contagem de lotes
+# Inicializar a variável de contagem de lotes 
 lotes_concluidos = 0
 
 # Iterar sobre os CNPJs em lotes onde pega cada cnpj da planilha 
