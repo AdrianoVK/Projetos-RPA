@@ -7,7 +7,7 @@ import time
 path_base = r'CAMINHO DA PASTA DOWNLOADS'  
 destino = Path(r'CAMINHO DA PASTA DE DESTINO') # No meu caso a pasta es ta alocada na Rede (outro servidor)
 
-#Precisei excluir antes todos os arquivos que contem a palavra chave que a func glob pega 
+#Precisei excluir antes todos os arquivos que contem a palavra chave que a func glob pega  
 def remover_arquivo_antigo(destino):
     arquivo_antigo = None 
     for file in destino.glob("NOME DO ARQUIVO*.xlsx"): # Ecluindo todos os arquivos que contem o nome
