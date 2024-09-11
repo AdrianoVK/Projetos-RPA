@@ -13,7 +13,7 @@ def Compilar_Arquivos():
     try: 
         date_today = datetime.today() 
         #hoje = date_today.strftime('%d-%m-%Y' + ' às ' + '%H:%M')   
-        data_hoje = date_today.strftime('%d %m %Y')
+        data_hoje = date_today.strftime('%d %m %Y') 
         # Acrescentando a coluna, compilando o arquivo e enviando para a pasta na rede    
         downloads = Path(r'PASTA DE ORIGEM')
         path_destino = Path(str('ARQUIVO DESEJADO ' + data_hoje + '.xlsx'))
