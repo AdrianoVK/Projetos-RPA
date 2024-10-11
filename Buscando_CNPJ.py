@@ -1,5 +1,5 @@
 import pandas as pd 
-import requests
+import requests 
 import time   
  
 # Essa é uma ideia que meu atual chefe faz no próprio excel, resolvi trazer para um robo fazer isso automaticamente e sem precisar ficar olhando terminar o processo dentro do próprio excel.
