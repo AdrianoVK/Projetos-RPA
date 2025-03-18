@@ -2,7 +2,7 @@ from datetime import datetime
 from pathlib import Path 
 from shutil import move, rmtree, copy 
 import os   
-import time 
+import time  
   
 path_base = r'CAMINHO DA PASTA DOWNLOADS'  
 destino = Path(r'CAMINHO DA PASTA DE DESTINO') # No meu caso a pasta es ta alocada na Rede (outro servidor)
