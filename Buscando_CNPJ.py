@@ -12,7 +12,7 @@ df_cnpjs = pd.read_excel(r'CAMINHO DO ARQUIVO', dtype={'CNPJ': str}) #formatando
 lista_informacoes = [] 
 
 # Definir o tamanho do lote (número de CNPJs a serem processados em cada lote) Como há uma limitação de dados e tempo de retorno atribui um limite de lotes de pesquisa
-tamanho_lote = 50
+tamanho_lote = 50 
 
 # Inicializar a variável de contagem de lotes 
 lotes_concluidos = 0
